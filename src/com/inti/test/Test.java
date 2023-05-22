@@ -1,9 +1,12 @@
 package com.inti.test;
 
+import com.inti.model.Avion;
+
 public class Test {
 
 	public static void main(String[] args) {
-		System.out.println("Bonjour à tous");
+		Avion avion = new Avion();
+		System.out.println(avion.toString());
 	}
 
 }
